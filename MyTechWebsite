@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+            color: #333;
+        }
+
+        .top-image-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .top-image-container img {
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #4a007e;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        h2 {
+            font-size: 2em;
+            color: #6a1b9a;
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+            font-size: 1.2em;
+            color: #444;
+        }
+
+        ul {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0;
+            list-style-type: square;
+        }
+
+        ul li {
+            margin: 10px 0;
+            font-size: 1em;
+        }
+
+        .content {
+            background: #fff;
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 800px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .image-container a {
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+            font-size: 1em;
+            text-decoration: none;
+            color: #4a007e;
+        }
+
+        .image-container a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-image-container">
+        <img src="images/Linkedin Profile.jpeg" height="180" alt="LinkedIn Profile">
+    </div>
+
+    <h1>Jennifer Akinboade</h1>
+    <h2>My Tech Profile</h2>
+    <p>Microsoft Certified: Fabric Analytics Engineer Associate (DP-600)</p>
+
+    <div class="content">
+        <h3>Tech Stack Includes:</h3>
+        <ul>
+            <li>Microsoft Azure</li>
+            <li>Microsoft Fabric</li>
+            <li>SQL</li>
+            <li>Python</li>
+            <li>PostgreSQL, MS SQL Server</li>
+            <li>HTML/CSS</li>
+            <li>Azure DevOps/Git</li>
+            <li>Excel, Macros</li>
+            <li>Microsoft Power BI</li>
+            <li>SSIS/SSRS</li>
+            <li>Jupyter</li>
+        </ul>
+
+        <h3>Skills Include:</h3>
+        <ul>
+            <li>ETL Development</li>
+            <li>Stored Procedures</li>
+            <li>Data Cleaning and Manipulation</li>
+            <li>Data Storytelling</li>
+            <li>Data Product Life Cycle</li>
+            <li>Software Development Life Cycle</li>
+            <li>Stakeholder Engagement</li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <h3>My Career Highlights</h3>
+        <ul>
+            <li>Nominated for Tech Innovator of the Month</li>
+            <li>Assisted with Database Replication to On-Prem Servers</li>
+            <li>Trained upper management, aspiring and current analysts on Fabric and Data Analytics</li>
+            <li>Built the First Dashboards on Power BI for the Customer Service Department</li>
+            <li>Obtained the Microsoft Fabric Analytics Engineer Associate Certification</li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <h3>Projects and LinkedIn</h3>
+        <div class="image-container">
+            <img src="images/LinkedIn.JPG" height="180" alt="LinkedIn Profile">
+            <a href="https://www.linkedin.com/in/adeola-akinboade-76a109223/">My LinkedIn</a>
+        </div>
+        <div class="image-container">
+            <img src="images/GitHub.JPG" height="120" alt="GitHub Profile">
+            <a href="https://github.com/AdeolaAkinboade">My GitHub</a>
+        </div>
+    </div>
+</body>
+</html>
